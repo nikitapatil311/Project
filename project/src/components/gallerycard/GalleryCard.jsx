@@ -1,15 +1,11 @@
 import React from "react";
-import img1 from "../../assests/images/img1.jpg";
-import img2 from "../../assests/images/img2.jpg";
-import img3 from "../../assests/images/img3.jpg";
-import img4 from "../../assests/images/img4.jpg";
 
-const GalleryCard = () => {
+const GalleryCard = (props) => {
   return (
     <>
       <div className="card text-bg-light">
-        <img src={img1} alt="" />
-        <h1 className="title">Vacation</h1>
+        <img src={props.image} alt="" height={200} />
+        <h1 className="title">{props.title}</h1>
         <div className="paragraph">
           {" "}
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
