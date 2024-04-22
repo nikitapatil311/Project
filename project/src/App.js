@@ -1,6 +1,7 @@
 import "./App.css";
 import MyCard from "./components/card/Card";
-import Gallery from "./components/gallery/gallery";
+import Gallery from "./components/gallery/Gallery";
+import Navbar from "./components/layout/navbar/Navbar";
 
 // Bootstrap configuration
 
@@ -11,13 +12,7 @@ import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 function App() {
   return (
     <div className="App">
-      <div className="navbar text-bg-dark navbar-expand-sm">
-        <div className="container">
-          <a href="" className="navbar-brand text-light">
-            React with bootstrap
-          </a>
-        </div>
-      </div>
+      <Navbar header="Vacation Time" color="white" expand="sm" />
       <h2>Welcome to Reactjs</h2>
       <MyCard />
       <Gallery />
