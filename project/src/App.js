@@ -1,7 +1,11 @@
 import "./App.css";
 
 function App() {
-  return <div>Welcome to Reactjs</div>;
+  return (
+    <div className="App">
+      <h2>Welcome to Reactjs</h2>
+    </div>
+  );
 }
 
 export default App;
