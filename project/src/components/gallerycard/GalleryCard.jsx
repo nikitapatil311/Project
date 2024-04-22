@@ -1,10 +1,11 @@
 import React from "react";
+import GalleryImg from "./GalleryImg";
 
 const GalleryCard = (props) => {
   return (
     <>
       <div className="card text-bg-light">
-        <img src={props.image} alt="" height={200} />
+        <GalleryImg image={props.image} />
         <h1 className="title">{props.title}</h1>
         <div className="paragraph">
           {" "}
