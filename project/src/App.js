@@ -12,7 +12,7 @@ import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 function App() {
   return (
     <div className="App">
-      <Navbar header="Vacation Time" color="white" expand="sm" />
+      <Navbar header="Vacation Time" color="bg-warning" expand="sm" />
       <h2>Welcome to Reactjs</h2>
       <MyCard />
       <Gallery />
