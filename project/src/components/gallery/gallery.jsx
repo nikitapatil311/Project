@@ -21,7 +21,7 @@ const Gallery = () => {
             <GalleryCard image={img3} title={"CalmTime"} />{" "}
           </div>
           <div className="col-sm-3">
-            <GalleryCard image={img4} title="Raining" />{" "}
+            <GalleryCard image={img4} title="Flying " />{" "}
           </div>
         </div>
       </div>
