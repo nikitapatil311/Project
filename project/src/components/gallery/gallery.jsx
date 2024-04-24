@@ -31,6 +31,17 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <div className="container mt-5">
+        <div className="row">
+          {gal.map((element: { title: string, imgUrl: any }, index: number) => {
+            return (
+              <div className="col-sm-3" key={index}>
+                <GalleryCard image={element.imgUrl} title={element.title} />
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </>
   );
 };
