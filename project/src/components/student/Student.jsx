@@ -1,15 +1,17 @@
-import { useState } from "react";
 import React from "react";
+import { useState } from "react";
 
 const Student = () => {
-  let [mobile, setMobile] = useState({
-    brand: "apple",
-    price: 20,
-  });
+  // learning usestate
 
+  let [car, setCar] = useState({
+    brand: "Benz",
+    color: "white",
+    price: 2000000000,
+  });
   return (
     <>
-      <p>{JSON.stringify(mobile)}</p>
+      <h1>{JSON.stringify(car)}</h1>
     </>
   );
 };
