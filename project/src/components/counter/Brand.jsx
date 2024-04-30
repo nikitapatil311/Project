@@ -31,7 +31,7 @@ function Brand() {
                 </ul>
                 <button
                   onClick={() => {
-                    incPrice(1000);
+                    incPrice(2000);
                   }}
                   className="btn btn-primary m-2"
                 >
@@ -39,7 +39,7 @@ function Brand() {
                 </button>
                 <button
                   onClick={() => {
-                    incPrice(2000);
+                    incPrice(1000);
                   }}
                   className="btn btn-secondary m-2"
                 >
