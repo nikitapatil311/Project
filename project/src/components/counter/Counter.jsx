@@ -11,9 +11,20 @@ const Counter = () => {
     });
   };
 
+  let incrementCounterBy = (value) => {
+    setCounter((prevstate) => {
+      return prevstate + value;
+    });
+  };
+
   let decrementCounter = () => {
     setCounter((prevstate) => {
       return prevstate - 1;
+    });
+  };
+  let decrementCounterBy = (value) => {
+    setCounter((prevstate) => {
+      return prevstate - value;
     });
   };
 
@@ -38,6 +49,20 @@ const Counter = () => {
                   className="btn btn-warning m-2"
                 >
                   Decrement
+                </button>
+                <button
+                  onClick={() => {
+                    incrementCounterBy(10);
+                  }}
+                  className="btn btn-warning m-2"
+                >
+                  Increment by 10
+                </button>
+                <button
+                  onClick={() => decrementCounterBy(10)}
+                  className="btn btn-warning m-2"
+                >
+                  Decrement by 10
                 </button>
               </div>
             </div>
