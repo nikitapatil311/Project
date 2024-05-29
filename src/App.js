@@ -11,6 +11,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 import Counter from "./components/counter/Counter";
 import Brand from "./components/counter/Brand";
+import WatchCart from "./components/cart/WatchCart";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <h2>Welcome to Reactjs</h2>
       <MyCard />
       <Gallery />
+      <WatchCart />
     </div>
   );
 }
